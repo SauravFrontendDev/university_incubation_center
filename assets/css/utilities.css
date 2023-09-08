@@ -1,0 +1,31 @@
+.nav {
+  background-color: var(--color-dark);
+  color: var(--color-grey-light);
+  padding: 2rem 0;
+}
+
+.nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+section {
+  padding: 5rem 0;
+}
+.section__heading {
+  font-weight: 600;
+  color: var(--color-dark);
+  margin-block: 2rem;
+  line-height: 1.1;
+  font-size: 1.5rem;
+  position: relative;
+}
+section p {
+  margin-block: 1rem;
+}
